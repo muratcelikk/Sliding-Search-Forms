@@ -24,9 +24,12 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/font-awesome/css/font-awesome.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -119,6 +122,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Sliding-Search-Forms"
+    }
+  },
+  "defaultProject": "Sliding-Search-Forms",
+  "cli": {
+    "analytics": "28bd8a4b-6939-4677-abc2-71ecec6a326e"
+  }
 }
